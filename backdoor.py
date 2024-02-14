@@ -80,7 +80,7 @@ def main():
             while not connected:
                 try:
                     soc = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-                    soc.connect(('192.168.0.152', 80))
+                    soc.connect(('(coloque o IP)', (coloque a porta)))
                     connected = soc
                 except (socket.error, socket.timeout):
                     sleep(2)
